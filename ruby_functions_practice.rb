@@ -91,5 +91,20 @@ def number_to_short_month_name(s)
     when 12
       p "Dec"
    end
+end
 
-  end
+def volume_of_cube(l)
+  return  l ** 3
+end
+
+def  volume_of_sphere(f,p,r)
+  #r = 5.0
+  #f =4.0/3.0
+  #p = 3.14
+  #p = Math::PI
+  #v = (f * p  *(r**3))
+
+  return f*p*(r**3)
+end
+#v =
+#pi = 3.141592653
