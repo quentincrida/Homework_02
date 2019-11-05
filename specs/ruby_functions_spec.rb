@@ -102,6 +102,8 @@ class FunctionsTest < MiniTest::Test
   #Given a value in farenheit, convert this into celsius.
   def test_fahrenheit_to_celsius()
     #add test code here
+    result = fahrenheit_to_celsius(86)
+    assert_equal(30, result)
   end
 
 
